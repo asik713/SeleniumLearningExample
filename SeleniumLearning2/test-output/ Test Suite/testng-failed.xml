@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test cases1(failed)">
+    <parameter name="username" value="password"/>
+    <classes>
+      <class name="lognTestCase.CorrectUserName">
+        <methods>
+          <include name="logInWithCorrectUserName"/>
+        </methods>
+      </class> <!-- lognTestCase.CorrectUserName -->
+    </classes>
+  </test> <!-- Test cases1(failed) -->
+  <test name="Test cases2(failed)">
+    <parameter name="username" value="password"/>
+    <classes>
+      <class name="lognTestCase.BothCorrect">
+        <methods>
+          <include name="loginUsingBothCorrect"/>
+        </methods>
+      </class> <!-- lognTestCase.BothCorrect -->
+    </classes>
+  </test> <!-- Test cases2(failed) -->
+  <test name="Test cases3(failed)">
+    <parameter name="username" value="password"/>
+    <classes>
+      <class name="lognTestCase.BothIncorrect">
+        <methods>
+          <include name="loginUsingBothInCorrect"/>
+        </methods>
+      </class> <!-- lognTestCase.BothIncorrect -->
+    </classes>
+  </test> <!-- Test cases3(failed) -->
+  <test name="Test cases4(failed)">
+    <parameter name="username" value="password"/>
+    <classes>
+      <class name="lognTestCase.CorrectPassword">
+        <methods>
+          <include name="loginWithCorrectPassword"/>
+        </methods>
+      </class> <!-- lognTestCase.CorrectPassword -->
+    </classes>
+  </test> <!-- Test cases4(failed) -->
+</suite> <!-- Failed suite [ Test Suite] -->

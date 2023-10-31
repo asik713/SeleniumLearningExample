@@ -1,0 +1,4 @@
+2023-10-10 18:23:57,172 INFO  [class] this is info 
+2023-10-10 18:23:57,173 WARN  [class] this is warn 
+2023-10-10 18:23:57,173 ERROR [class] this is error 
+2023-10-10 18:23:57,173 FATAL [class] this is fatal 
